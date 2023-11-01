@@ -11,6 +11,16 @@ p {
   
 
 }
+ol {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.BookType
+{
+	color:yellow;
+	list-style-type: none;
+}
 p:first-letter {
   
   font-family: Georgia;
