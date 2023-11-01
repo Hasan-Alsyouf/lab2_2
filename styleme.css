@@ -1,0 +1,47 @@
+body {
+  background-color: black;
+  color:white;
+}
+
+p {
+  color: #98C0F5;
+  margin-left: 20px;
+  font-size:21px;
+}
+
+div
+{
+	width: 80vw;
+}
+a:link { color: red; }
+a:hover { color: orange; }
+
+.myInfo{
+color:#F9FE66;
+font-weight:bold;
+
+animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+50% {
+opacity: 0;
+}
+}
+	
+
+
+#myName
+
+{
+	  font-size:50px;
+	 text-shadow:-4px 9px orange;
+	 color:black;
+}
+#myBio
+{
+	font-size:18px;
+	text-align: justify;
+	word-spacing:2px;
+	font-family:Arial Black, Verdana, Trebuchet MS,Georgia;
+}
