@@ -7,14 +7,22 @@ p {
   color: #98C0F5;
   margin-left: 20px;
   font-size:21px;
+  
+  
+
+}
+p:first-letter {
+  
+  font-family: Georgia;
+  initial-letter: 1.5;
 }
 
 div
 {
 	width: 80vw;
 }
-a:link { color: red; }
-a:hover { color: orange; }
+a:link { color: red; text-decoration:none;}
+a:hover { color: orange;  text-decoration:underline;}
 
 .myInfo{
 color:#F9FE66;
